@@ -251,15 +251,11 @@
 **수집 데이터 정보**
 - 수집된 꽃 데이터셋은 서비스할 무인 매장의 실제 식물 및 상품 정보를 담고 있는 데이터베이스를 가정합니다.
 
-|데이터|수집건수|출처|활용여부|
-|---|---|---|---|
-|오늘의 꽃| 366+|[링크](#) | Y| 
-|독성 식물| 76+|[링크1](https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list) [링크2](https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list)| Y|
-|식물 커뮤니티| 1900+| [링크1](https://groro.co.kr/community/list#12) [링크2](https://groro.co.kr/community/list#5) | Y|   
-
-<br>
-
-**데이터 활용 목적**
+|데이터|수집건수|출처|활용여부|활용목적|
+|---|---|---|---|---|
+|오늘의 꽃| 366+|[링크](#) | Y| 추천|
+|독성 식물| 76+|[링크1](https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list) [링크2](https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list)| Y| 추천 |
+|식물 커뮤니티| 1900+| [링크1](https://groro.co.kr/community/list#12) [링크2](https://groro.co.kr/community/list#5) | Y|Q&A|
 
 <br>
 
@@ -313,7 +309,19 @@ def clean_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 ```
+<br>
 
+**최종 데이터셋**
+1. 식물 추천 데이터셋
+<div align="left"> 
+<img src="https://github.com/user-attachments/assets/d5b1cbd6-c1ca-4558-a9b8-62f15bfe243f" width="80%" alt="플랜테리어 2" style="float: left; margin: 0; padding: 0;" />
+<br style="clear: both;" /> 
+</div>
+<br>
+2. 식물 상담 데이터셋
+<div align="left"> 
+<img src="https://github.com/user-attachments/assets/c748e731-05ad-4ae2-8d89-be695e7c9549" width="80%" alt="플랜테리어 2" style="float: left; margin: 0; padding: 0;" />
+<br style="clear: both;" /> 
 <br><br>
 
 ## 성능 테스트 계획 및 결과
@@ -554,9 +562,10 @@ AI   : {
 > 협업 절차를 통해 데이터를 처리하고, 해당 데이터를 LLM에 전달하여 RAG를 수행하고 응답을 받는 일련의 과정을 기획하고 langgraph를 구현하며 langchain과 langgraph의 구조와 작동 방식에 대해 이해할 수 있었다.
 - **`안수이`**
 > LLM과 RAG를 구현하면서 전체적인 파이프라인의 흐름을 이해할 수 있었다. 특히 LangGraph의 구조를 따라가며 시스템이 어떻게 상호작용하는지 파악할 수 있었고, 시스템 아키텍처를 그려보며 전체 구성 요소와 데이터 흐름이 명확해졌다.
-RAG 테스트를 진행하면서 평가 기준을 설정하고 그 기준을 바탕으로 응답 품질을 분석했다. 이러한 테스트를 통해 프롬프트 구조 개선, 임베딩 품질 향상, 검색 범위 조정 등 다양한 개선 방향을 도출할 수 있었고, 성능 개선을 4차에 이어서 해보고 싶다.
+RAG 테스트를 진행하면서 평가 기준을 설정하고 그 기준을 바탕으로 응답 품질을 분석했다. 이러한 테스트를 통해 다양한 개선 방향을 도출할 수 있었다.
 - **`이상민`**
 > 사용자 정보 수집 llm과 RAG 및 QnA의 예상 응답과 실제 응답을 분석하며 프롬프트를 수정하는 일을 담당했습니다. 수업 때 배웠던 것보다 복잡해서 어려움도 많았지만 팀원들에게 도움을 받아 잘 진행되었던 것 같습니다. 이어지는 4차 프로젝트에서는 TTS 관련해서 도전해보고 싶다는 생각이 들었습니다.
 - **`정종현`**
 > 이번 프로젝트는 실제 서비스 연동 되기 위해 더 많은 시스템연계가 필요했습니다. 아직 끝난것은 아니지만, 다양한 많은 시스템의 연계를 해 보고, 최종에 해당 내용을 추가해 보겠습니다.
+
 
