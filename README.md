@@ -15,7 +15,7 @@
     <td align="center"><a href="https://github.com/sosodoit"><img src="https://avatars.githubusercontent.com/sosodoit" width="150px;" alt="">
     <td align="center"><a href="https://github.com/deneb784"><img src="https://avatars.githubusercontent.com/deneb784" width="150px;" alt="">
     <td align="center"><a href="https://github.com/ahnsui"><img src="https://avatars.githubusercontent.com/ahnsui" width="150px;" alt="">
-    <td align="center"><a href="https://github.com/jjoggoddalgi"><img src="https://avatars.githubusercontent.com/jjoggoddalgi" width="150px;" alt="">
+    <td align="center"><a href="https://github.com/ChocolateStrawberryYumYum"><img src="https://avatars.githubusercontent.com/ChocolateStrawberryYumYum" width="150px;" alt="">
     <td align="center"><a href="https://github.com/myem21"><img src="https://avatars.githubusercontent.com/myem21" width="150px;" alt="">
   </tr>
   <tr>     
@@ -482,10 +482,24 @@ AI   : {
 
 <img width="1500" height="1300" alt="image" src="https://github.com/user-attachments/assets/36a559c9-e37b-472a-8764-2a7db4df6157" />
 
+## 트러블슈팅
+**`모델의 반환값 문제`**
+- 모델의 출력을 인자를 통해서 json으로 강제하면 tool binding 과정에서 오류가 발생
+- → 모델의 프롬프트에서 json으로 반환하도록 선언하고, 모델 밖에서 실제 json 형식으로 파싱하는 형태로 구현
+
+**`모델을 클래스로 구성할 때 tool binding 문제`**
+- 각각의 모델을 클래스로 구성해서, get_response 함수를 통해서 결과를 받아오는 형태일때, tool binding에 관한 문제 발생
+- → 모델을 생성할 때 인자로 tool 을 넘겨주어서 바인딩
+
+**`데이터 전처리 과정에서의 매칭 문제`**
+- 데이터를 병합할 때, 국명은 조금씩 다른 경우가 많아 매칭이 원활하게 되지 않고, 학명으로 매칭할 경우 정확한 종명 대신 sp. 등을 사용해서 작성되어 있는 경우를 발견
+- → 학명을 속명과 종명으로 나누어서, 매칭을 진행
+
 ## 한줄회고
 - **`김소희`** 
 - **`박준영`**
 - **`안수이`**
 - **`이상민`**
 - **`정종현`**
+
 
