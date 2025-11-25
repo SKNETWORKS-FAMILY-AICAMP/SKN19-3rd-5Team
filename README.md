@@ -336,7 +336,19 @@ def clean_text(text):
 
 ### 평가 방식
 - LLM 및 RAG 품질을 측정하기 위한 성능 지표를 정의
+  <img width="1160" height="203" alt="image" src="https://github.com/user-attachments/assets/a9a2f3b8-ac72-4380-a999-fd4696920d70" />
+
 ![슬라이드1](https://github.com/user-attachments/assets/0bca7d15-3cb2-4c36-b3b0-62f9ca4ffb6c)
+
+<br>
+
+### 평가 예시
+- RAG
+  <img width="1887" height="527" alt="image" src="https://github.com/user-attachments/assets/9f818c60-e6f1-4fa2-898c-b4f4c304b2f5" />
+
+- LLM
+<img width="1783" height="250" alt="image" src="https://github.com/user-attachments/assets/7c525341-8843-4aa8-8018-188f872936b6" />
+
 
 <br>
 
@@ -579,6 +591,7 @@ RAG 테스트를 진행하면서 평가 기준을 설정하고 그 기준을 바
 > 사용자 정보 수집 llm과 RAG 및 QnA의 예상 응답과 실제 응답을 분석하며 프롬프트를 수정하는 일을 담당했습니다. 수업 때 배웠던 것보다 복잡해서 어려움도 많았지만 팀원들에게 도움을 받아 잘 진행되었던 것 같습니다. 이어지는 4차 프로젝트에서는 TTS 관련해서 도전해보고 싶다는 생각이 들었습니다.
 - **`정종현`**
 > 이번 프로젝트는 실제 서비스 연동 되기 위해 더 많은 시스템연계가 필요했습니다. 아직 끝난것은 아니지만, 다양한 많은 시스템의 연계를 해 보고, 최종에 해당 내용을 추가해 보겠습니다.
+
 
 
 
