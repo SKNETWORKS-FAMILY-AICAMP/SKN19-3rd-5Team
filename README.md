@@ -547,10 +547,8 @@ AI   : {
 **`[목업] 예상 화면`**
 
 <img width="1500" height="1100" alt="image" src="https://github.com/user-attachments/assets/b09216ea-b8ee-4ad6-9b77-9be5072b4e9e" />
-
-<img width="1500" height="1300" alt="image" src="https://github.com/user-attachments/assets/1ee048e1-b46d-4f37-86de-b34677d126e2" />
-
-<img width="1500" height="1300" alt="image" src="https://github.com/user-attachments/assets/36a559c9-e37b-472a-8764-2a7db4df6157" />
+<img width="1500" height="1300" alt="사용자 정보 수집" src="https://github.com/user-attachments/assets/78f2e26f-d1d1-4a4b-8b9a-3c9c6f311a58" />
+<img width="1500" height="1300" alt="추천" src="https://github.com/user-attachments/assets/01b3dbd5-2148-4faf-9ec0-cf46e046422e" />
 
 <br><br>
 
@@ -581,6 +579,7 @@ RAG 테스트를 진행하면서 평가 기준을 설정하고 그 기준을 바
 > 사용자 정보 수집 llm과 RAG 및 QnA의 예상 응답과 실제 응답을 분석하며 프롬프트를 수정하는 일을 담당했습니다. 수업 때 배웠던 것보다 복잡해서 어려움도 많았지만 팀원들에게 도움을 받아 잘 진행되었던 것 같습니다. 이어지는 4차 프로젝트에서는 TTS 관련해서 도전해보고 싶다는 생각이 들었습니다.
 - **`정종현`**
 > 이번 프로젝트는 실제 서비스 연동 되기 위해 더 많은 시스템연계가 필요했습니다. 아직 끝난것은 아니지만, 다양한 많은 시스템의 연계를 해 보고, 최종에 해당 내용을 추가해 보겠습니다.
+
 
 
 
