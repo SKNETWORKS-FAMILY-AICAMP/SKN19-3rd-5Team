@@ -1,0 +1,6 @@
+[submodule "data"]
+	path = data
+	url = https://github.com/SKN19-5Team-3rd-4th/data
+[submodule "llm"]
+	path = llm
+	url = https://github.com/SKN19-5Team-3rd-4th/llm
