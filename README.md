@@ -216,7 +216,7 @@
 
 ## 시스템 아키텍처
 <i>LLM 중심의 시스템 아키텍처입니다.</i>
-<img width="1000" height="800" alt="Service Architecture" src="https://github.com/user-attachments/assets/a5214c86-8bb2-4b0d-b4ee-e0985bbc4266" />
+<img width="1000" height="800" alt="Service Architecture" src="https://github.com/user-attachments/assets/152257eb-9eac-4f8a-a08c-fc0169d1502e" />
 
 <br>
 
@@ -581,6 +581,7 @@ RAG 테스트를 진행하면서 평가 기준을 설정하고 그 기준을 바
 > 사용자 정보 수집 llm과 RAG 및 QnA의 예상 응답과 실제 응답을 분석하며 프롬프트를 수정하는 일을 담당했습니다. 수업 때 배웠던 것보다 복잡해서 어려움도 많았지만 팀원들에게 도움을 받아 잘 진행되었던 것 같습니다. 이어지는 4차 프로젝트에서는 TTS 관련해서 도전해보고 싶다는 생각이 들었습니다.
 - **`정종현`**
 > 이번 프로젝트는 실제 서비스 연동 되기 위해 더 많은 시스템연계가 필요했습니다. 아직 끝난것은 아니지만, 다양한 많은 시스템의 연계를 해 보고, 최종에 해당 내용을 추가해 보겠습니다.
+
 
 
 
